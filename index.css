@@ -309,3 +309,128 @@ footer {
 .linkchange {
   color: rgb(123, 67, 187);
 }
+/* ================= RESPONSIVE ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  nav {
+    padding: 0 40px;
+  }
+
+  .firstsection {
+    padding: 80px 40px;
+  }
+
+  .firstsection > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftsection {
+    font-size: 2.2rem;
+  }
+
+  .rightsection img {
+    width: 60%;
+    margin-top: 30px;
+  }
+
+  .secondsection .box {
+    width: 90%;
+  }
+
+  .secondsection .vertical {
+    margin: 0 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .firstsection {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .leftsection {
+    font-size: 1.8rem;
+  }
+
+  .rightsection img {
+    width: 80%;
+  }
+
+  .secondsection {
+    padding: 40px 20px;
+  }
+
+  .secondsection .box {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .secondsection .vertical {
+    margin: 40px 0;
+  }
+
+  .vertical-title,
+  .vertical-desc {
+    width: auto;
+    text-align: center;
+  }
+
+  .cert-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cert-card {
+    margin: 10px;
+    width: 80%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin-top: 10px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .leftsection {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    padding: 15px;
+  }
+
+  .firstsection {
+    padding: 40px 15px;
+  }
+
+  .rightsection img {
+    width: 90%;
+  }
+}
